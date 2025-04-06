@@ -39,9 +39,14 @@ $ npm install @form8ion/cli-core --save-prod
 ### Example
 
 ```javascript
-import {getPrompt} from '@form8ion/cli-core';
+import {getPrompt, logger} from '@form8ion/cli-core';
 
 getPrompt({});
+
+logger.info('info message');
+logger.success('success message');
+logger.warn('warn message');
+logger.error('error message');
 ```
 
 ## Contributing
