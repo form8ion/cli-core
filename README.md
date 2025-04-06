@@ -27,7 +27,7 @@ Run `npm run generate:md` to generate a table of contents
 ### Installation
 
 ```sh
-$ npm install @form8ion/cli-core
+$ npm install @form8ion/cli-core --save-prod
 ```
 
 ### Example
