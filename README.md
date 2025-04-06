@@ -12,7 +12,12 @@ core package to support CLIs using the form8ion ecosystem
 
 ## Table of Contents
 
-Run `npm run generate:md` to generate a table of contents
+* [Usage](#usage)
+  * [Installation](#installation)
+  * [Example](#example)
+* [Contributing](#contributing)
+  * [Dependencies](#dependencies)
+  * [Verification](#verification)
 
 ## Usage
 
@@ -32,7 +37,11 @@ $ npm install @form8ion/cli-core --save-prod
 
 ### Example
 
-run `npm run generate:md` to inject the usage example
+```javascript
+import {getPrompt} from '@form8ion/cli-core';
+
+getPrompt({});
+```
 
 ## Contributing
 
