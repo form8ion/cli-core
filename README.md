@@ -26,6 +26,7 @@ core package to support CLIs using the form8ion ecosystem
 [![npm][npm-badge]][npm-link]
 [![Try @form8ion/cli-core on RunKit][runkit-badge]][runkit-link]
 [![license][license-badge]][license-link]
+![node][node-badge]
 
 <!--consumer-badges end -->
 
@@ -109,3 +110,5 @@ $ npm test
 [license-link]: LICENSE
 
 [license-badge]: https://img.shields.io/github/license/form8ion/cli-core.svg?logo=opensourceinitiative
+
+[node-badge]: https://img.shields.io/node/v/@form8ion/cli-core?logo=node.js
